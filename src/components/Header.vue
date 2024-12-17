@@ -25,14 +25,18 @@ export default defineComponent({
 
 <style scoped>
 .nav {
-    position: absolute;
-    top: 0; /* Align to the top of the page */
-    left: 50%; /* Center horizontally */
-    transform: translateX(-50%); /* Offset by 50% of its width to center it */
+    position: fixed;
+    width: 100vw;
+    top: 0;
+    padding: 16px 0;
+    z-index: 100;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%; /* Optional: to make the navbar span the full width */
+    /* Style */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+
 }
 
 .inside {

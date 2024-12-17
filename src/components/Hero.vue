@@ -40,6 +40,16 @@ export default defineComponent({
 </script>
 
 <style scoped>
+
+.middle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    flex-direction: column;
+}
+
 #name {
     font-family: var(--headerFont);
     color: var(--primary);
