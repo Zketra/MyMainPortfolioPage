@@ -12,8 +12,8 @@
 <script lang="ts">
 import { defineComponent } from "vue";
 import NavHeader from "./components/Header.vue";
-import YBDHero from "./components/Hero.vue";
-import HeroBackground from "./components/HeroBackground.vue";
+import YBDHero from "./components/HeroSection/Hero.vue";
+import HeroBackground from "./components/HeroSection/HeroBackground.vue";
 /*
 import About from "./components/About.vue";
 import Skills from "./components/Skills.vue";
