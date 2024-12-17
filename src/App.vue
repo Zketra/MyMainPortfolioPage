@@ -2,12 +2,9 @@
    <div id="app">
     <NavHeader />
     <YBDHero />
+    <HeroBackground />
+    
     <!--
-      <About />
-      <Skills />
-      <Experience />
-      <Projects />
-      <Footer />
     -->
   </div>
 </template>
@@ -16,6 +13,7 @@
 import { defineComponent } from "vue";
 import NavHeader from "./components/Header.vue";
 import YBDHero from "./components/Hero.vue";
+import HeroBackground from "./components/HeroBackground.vue";
 /*
 import About from "./components/About.vue";
 import Skills from "./components/Skills.vue";
@@ -27,7 +25,7 @@ import Footer from "./components/Footer.vue";
 export default defineComponent({
   name: 'App',
   components: {
-    NavHeader, YBDHero,
+    NavHeader, YBDHero, HeroBackground,
   }
 });
 </script>

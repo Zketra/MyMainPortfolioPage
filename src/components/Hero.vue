@@ -25,17 +25,6 @@ import { defineComponent } from 'vue'
 
 export default defineComponent({
     name: "YBDHero",
-    /*
-    data() {
-        return {
-            icons: {
-                code: require('../assets/icons/code.svg'),
-                music: require('../assets/icons/music.svg'),
-                developer: require('../assets/icons/developer.svg')
-            }
-        }
-    }
-        */
 })
 </script>
 

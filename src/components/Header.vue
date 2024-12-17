@@ -34,7 +34,6 @@ export default defineComponent({
     justify-content: center;
     align-items: center;
     /* Style */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(10px);
 
 }
