@@ -4,15 +4,15 @@
             <span id="name">Yusuf B<span class="stylish">erk</span>an Dem<span class="stylish" >ir</span><span>b</span><span class="stylish">ag</span></span>
             <div id="titleDiv">
                 <div class="miniTitleDiv">
-                    <img src="../assets/icons/location.svg" class="titleIcon" alt="Code Icon" />
+                    <img src="../../assets/icons/location.svg" class="titleIcon" alt="Code Icon" />
                     <span>Heppenheim, Germany</span>
                 </div>
                 <div class="miniTitleDiv">
-                    <img src="../assets/icons/music.svg" class="titleIcon" alt="Music Icon" />
+                    <img src="../../assets/icons/music.svg" class="titleIcon" alt="Music Icon" />
                     <span>Musician</span>
                 </div>
                 <div class="miniTitleDiv">
-                    <img src="../assets/icons/code.svg" class="titleIcon" alt="Developer Icon" />
+                    <img src="../../assets/icons/code.svg" class="titleIcon" alt="Developer Icon" />
                     <span>Back-End Developer</span>
                 </div>
             </div>
