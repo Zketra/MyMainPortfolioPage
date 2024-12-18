@@ -1,11 +1,10 @@
 <template>
-  <div class="father">
+  <div id="About" class="father">
     <div class="content">
       <img src="../../assets/images/Line.png" alt="Line" class="line" />
       <div class="text">
         <h3 class="title">About</h3>
-        <p class="text">
-          I am an Developer, an Musician and an Actor. Currently doing an apprenticeship at Deutsche Telekom as a Software-Developer</p>
+        <p class="text">I am a developer, a musician, and an actor. Currently doing an apprenticeship at Deutsche Telekom as a software developer.</p>
       </div>
     </div>
   </div>
@@ -40,6 +39,7 @@ export default defineComponent({
     justify-content: center;
     align-items: center;
     width: 100vw;
+    margin-bottom: 80px;
   }
 
   .content {

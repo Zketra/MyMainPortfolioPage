@@ -4,6 +4,7 @@
     <YBDHero />
     <HeroBackground />
     <About />
+    <Skills />
     
     <!--
     -->
@@ -16,6 +17,7 @@ import NavHeader from "./components/NavBar/Header.vue";
 import YBDHero from "./components/HeroSection/Hero.vue";
 import HeroBackground from "./components/HeroSection/HeroBackground.vue";
 import About from "./components/About/About.vue";
+import Skills from "./components/Skills/Skills.vue";
 /*
 import About from "./components/About.vue";
 import Skills from "./components/Skills.vue";
@@ -27,7 +29,7 @@ import Footer from "./components/Footer.vue";
 export default defineComponent({
   name: 'App',
   components: {
-    NavHeader, YBDHero, HeroBackground, About,
+    NavHeader, YBDHero, HeroBackground, About, Skills,
   }
 });
 </script>

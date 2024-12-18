@@ -5,7 +5,7 @@
                 <a href="https://www.demirbags.com" class="logo">D</a>
             </div>
             <div id="rightNav">
-                <a href=".about" class="navLink">about</a>
+                <a href="#About" class="navLink">about</a>
                 <a href=".skills" class="navLink">skills</a>
                 <a href=".achivements" class="navLink">achievement</a>
                 <a href=".contact" class="navLink">contact</a>
@@ -33,8 +33,12 @@ export default defineComponent({
     display: flex;
     justify-content: center;
     align-items: center;
-    /* Style */
+    /* Style
     backdrop-filter: blur(10px);
+     */
+
+    mask: linear-gradient(black, black, transparent);
+    backdrop-filter: blur(8px);
 
 }
 
