@@ -88,8 +88,10 @@ export default defineComponent({
     flex-flow: row wrap;
     height: 400px;
     width: 100%;
-    background-color: black;
+    background-color: #0a0a0a;
     border: 1px solid #444444;
     border-radius: 20px;
+    box-sizing: border-box;
+    padding: 10px;
   }
 </style>
