@@ -32,7 +32,7 @@ export default defineComponent({
   justify-content: center;
   border-radius: 30px;
   margin: 5px;
-  padding: 5px 15px;
+  padding: 4px 15px;
   height: 20px;
 }
 

@@ -10,12 +10,17 @@
 :root {
     --headerFont: 'Felgine';
     --secFont: 'Anonymous Pro';
-
+    
     --primary: #FFFFFF;
     --secondary: #DDDDDD;
-
+    
     --background: #101010;
+    
+}
 
+body{
+    background-color: var(--background);
+    overflow-x: hidden; /* Hide horizontal scrollbar */
 }
 
 #app {
@@ -29,15 +34,28 @@ a {
     text-decoration: none;
 }
 
-body{
-    background-color: var(--background);
-}
 
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--headerFont);
     
     color: var(--primary);
 }
+
+  button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    padding: 4px 15px;
+
+
+    background-color: #44444400 ;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 20px;
+  }
 
 
 .secondaryText {

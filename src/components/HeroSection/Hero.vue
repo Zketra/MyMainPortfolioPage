@@ -60,7 +60,6 @@ export default defineComponent({
 .miniTitleDiv {
     display: flex;
     align-items: center;
-    margin-right: 16px;
 }
 
 .titleIcon {
