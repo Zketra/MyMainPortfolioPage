@@ -7,22 +7,50 @@
       <div class="left"></div>
       <div class="right">
 
+        <!-- Lorex Media -->
         <div class="achivement">
           <div class="topPart">
             <span style="color: #444444; text-decoration: underline;">work</span>
             <span style="color: #444444;">2024</span>
           </div>
           <div class="titleDiv">
+            <div class="dot"></div>
             <h3>Lorex Media</h3>
             <span style="margin-top: -10px;">Managing Director</span>
           </div>
           <div class="thumbDiv">
-            <img src="/src/assets/images/Achivements/lorex.png" alt="" class="thumb">
+            <img src="/src/assets/images/Achivements/lorex.png" alt="" class="thumbblue">
             <div class="desc">
               <p>A future company to do all online management from ads to website, from follow up auto-messaging to scraped-customer-search. Anything that is online, we manage it for our customers.</p>
              <br> 
               <div class="direct">
-                <button onclick="location.href='https://www.lorexmedia.com'">
+                <button onclick="window.open('https://www.lorexmedia.com', '_blank')">
+                  check it out&nbsp;
+                  <img src="/src/assets/icons/arrow.png" alt="arrow">
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Sawix -->
+        <div class="achivement">
+          <div class="topPart">
+            <span style="color: #444444; text-decoration: underline;">work</span>
+            <span style="color: #444444;">2023</span>
+          </div>
+          <div class="titleDiv">
+            <div class="dot"></div>
+            <h3>Sawix Studio</h3>
+            <span style="margin-top: -10px;">Website Designer</span>
+          </div>
+          <div class="thumbDiv">
+            <img src="/src/assets/images/Achivements/sawix.png" alt="" class="thumbpurple">
+            <div class="desc">
+              <p>Learnt the basics of website designing using Figma, Wordpress and Webflow that became the groundwork of my designing skills that i still use today.  </p>
+             <br> 
+              <div class="direct">
+                <button onclick="window.open('https://www.sawix.de', '_blank')">
                   check it out&nbsp;
                   <img src="/src/assets/icons/arrow.png" alt="arrow">
                 </button>
@@ -89,11 +117,18 @@ export default defineComponent({
     border-radius: 20px;
     box-sizing: border-box;
     padding: 20px;
+    margin-bottom: 20px;
   }
 
-  .thumb{
+  .thumbblue{
     width: 100%;
+    box-shadow: 0 -20px 50px -25px rgba(21, 42, 113, 0.5);
   }
+  .thumbpurple{
+    width: 100%;
+    box-shadow: 0 -20px 50px -25px rgba(86, 14, 182, 0.2);
+  }
+
 
   .topPart {
     display: flex;
@@ -113,6 +148,16 @@ export default defineComponent({
     align-items:normal;
     width: 100%;
     margin: 10px 0 20px 0;
+  }
+
+  .dot {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    top: 65px;
+    left: -25px;
   }
   
   .desc {
