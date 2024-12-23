@@ -20,6 +20,7 @@
             <img src="/src/assets/images/Achivements/lorex.png" alt="" class="thumb">
             <div class="desc">
               <p>A future company to do all online management from ads to website, from follow up auto-messaging to scraped-customer-search. Anything that is online, we manage it for our customers.</p>
+             <br> 
               <div class="direct">
                 <button onclick="location.href='https://www.lorexmedia.com'">
                   check it out&nbsp;
