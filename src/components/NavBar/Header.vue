@@ -2,7 +2,7 @@
     <div class="nav">
         <div class="inside">
             <div id="leftNav">
-                <a href="https://www.demirbags.com" class="logo">D</a>
+                <a href="https://www.demirbags.com"><img src="../../assets/icons/Logo.png" alt="Logo" class="logo"></a>
             </div>
             <div id="rightNav">
                 <a href="#About" class="navLink">about</a>
