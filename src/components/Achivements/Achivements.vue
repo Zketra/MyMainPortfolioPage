@@ -47,12 +47,44 @@
           <div class="thumbDiv">
             <img src="/src/assets/images/Achivements/sawix.png" alt="" class="thumbpurple">
             <div class="desc">
-              <p>Learnt the basics of website designing using Figma, Wordpress and Webflow that became the groundwork of my designing skills that i still use today.  </p>
+              <p>Learnt the basics of website designing using Figma, Wordpress and Webflow that became the groundwork of my designing skills that i still use today.</p>
              <br> 
               <div class="direct">
                 <button onclick="window.open('https://www.sawix.de', '_blank')">
                   check it out&nbsp;
                   <img src="/src/assets/icons/arrow.png" alt="arrow">
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 2D Game -->
+        <div class="achivement">
+          <div class="topPart">
+            <span style="color: #444444; text-decoration: underline;">project</span>
+            <span style="color: #444444;">2018</span>
+          </div>
+          <div class="titleDiv">
+            <div class="dot"></div>
+            <h3>2D Adventure Game</h3>
+            <span style="margin-top: -10px;">Developer</span>
+          </div>
+          <div class="thumbDiv">
+            <img src="/src/assets/images/Achivements/game.png" alt="" class="thumbgreen">
+            <div class="desc">
+              <p>Developed a Zelda-like game with a team of 3. </p>
+              <ul>
+                <li>Learned Unity and C# </li>
+                <li>Built a base to how to work with a team and use Git</li>
+                <li>Upgraded my designing skills </li>
+              </ul>
+              <p>Since it has been a long time i unfortunately do not have the files</p>
+             <br> 
+              <div class="direct">
+                <button class="unbtn" >
+                  check it out&nbsp;
+                  <img src="/src/assets/icons/arrowdark.png" alt="arrow">
                 </button>
               </div>
             </div>
@@ -117,7 +149,7 @@ export default defineComponent({
     border-radius: 20px;
     box-sizing: border-box;
     padding: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
   }
 
   .thumbblue{
@@ -126,7 +158,11 @@ export default defineComponent({
   }
   .thumbpurple{
     width: 100%;
-    box-shadow: 0 -20px 50px -25px rgba(86, 14, 182, 0.2);
+    box-shadow: 0 -20px 50px -25px rgba(86, 14, 182, 0.3);
+  }
+  .thumbgreen{
+    width: 100%;
+    box-shadow: 0 -20px 50px -25px rgba(23, 110, 43, 0.5);
   }
 
 
