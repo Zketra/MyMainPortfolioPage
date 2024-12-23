@@ -50,9 +50,7 @@ export default defineComponent({
 }
 
 .logo {
-    font-family: var(--headerFont);
-    font-size: 48px;
-    font-feature-settings: 'ss01';
+    width: 50px;
 }
 
 .navLink {
