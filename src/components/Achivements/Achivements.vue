@@ -2,9 +2,43 @@
   <div class="lineDiv">
     <img class="line" src="../../assets/images/Line2.png" alt="line">
   </div>
-  <div class="father">
+  <div class="father" id="achivements">
     <div class="content">
-      <div class="left"></div>
+      <div class="left">
+
+        <!-- Lorex Media -->
+        <div class="achivement">
+          <div class="topPart">
+            <span style="color: #444444; text-decoration: underline;">work</span>
+            <span style="color: #444444;">2023 - 2024</span>
+          </div>
+          <div class="titleDiv">
+            <div class="dot dotPosRight"></div>
+            <h3>Aerium Estate</h3>
+            <span style="margin-top: -10px;">Back-End Developer</span>
+          </div>
+          <div class="thumbDiv">
+            <img src="/src/assets/images/Achivements/aerium.png" alt="" class="thumbblue">
+            <div class="desc">
+              <p>Created the whole Back-End from ground up, using Python, FastAPI, PostgreSQL, SQLAlchemy.
+              <ul>
+                <li>Structured a ‘Tenant Based’ Database</li>
+                <li>Integrated authentication API’s like JWT</li>
+                <li>Made it scalable using Alembic</li>
+              </ul>
+              They unfortunately shut down recently
+</p>
+             <br> 
+              <div class="direct">
+                <button onclick="window.open('https://web.archive.org/web/20240420083345/https://www.aerium.estate/#expand', '_blank')">
+                  check it out&nbsp;
+                  <img src="/src/assets/icons/arrow.png" alt="arrow">
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
       <div class="right">
 
         <!-- Lorex Media -->
@@ -14,7 +48,7 @@
             <span style="color: #444444;">2024</span>
           </div>
           <div class="titleDiv">
-            <div class="dot"></div>
+            <div class="dot dotPosLeft"></div>
             <h3>Lorex Media</h3>
             <span style="margin-top: -10px;">Managing Director</span>
           </div>
@@ -40,7 +74,7 @@
             <span style="color: #444444;">2023</span>
           </div>
           <div class="titleDiv">
-            <div class="dot"></div>
+            <div class="dot dotPosLeft"></div>
             <h3>Sawix Studio</h3>
             <span style="margin-top: -10px;">Website Designer</span>
           </div>
@@ -66,7 +100,7 @@
             <span style="color: #444444;">2018</span>
           </div>
           <div class="titleDiv">
-            <div class="dot"></div>
+            <div class="dot dotPosLeft"></div>
             <h3>2D Adventure Game</h3>
             <span style="margin-top: -10px;">Developer</span>
           </div>
@@ -114,9 +148,10 @@ export default defineComponent({
 
   .line {
     /* width: 80vw; */
-    height: 1817px;
+    height: 1781px;
     position: absolute;
     z-index: -1;
+    transform: translate(1.1%, 0); /* Center the image */    
   }  
 
   .father {
@@ -130,12 +165,19 @@ export default defineComponent({
   .content {
     display: flex;
     width: 70vw;
-    align-items: center;
   }
 
   .right, .left {
-    margin-top: 200px ;
+    margin-top: 230px ;
     width: 50%;
+  }
+
+  .right {
+    margin-left: 20px;
+    margin-top: 400px;
+  }
+  .left{
+    margin-right: 20px ;
   }
 
   .achivement {
@@ -193,7 +235,14 @@ export default defineComponent({
     border-radius: 50%;
     background-color: #ffffff;
     top: 65px;
-    left: -25px;
+  }
+
+  .dotPosLeft {
+    left: -28px;
+  }
+
+  .dotPosRight {
+    right: -28px;
   }
   
   .desc {

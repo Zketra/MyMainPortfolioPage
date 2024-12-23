@@ -6,9 +6,9 @@
             </div>
             <div id="rightNav">
                 <a href="#About" class="navLink">about</a>
-                <a href=".skills" class="navLink">skills</a>
-                <a href=".achivements" class="navLink">achievement</a>
-                <a href=".contact" class="navLink">contact</a>
+                <a href="#skills" class="navLink">skills</a>
+                <a href="#achivements" class="navLink">achievement</a>
+                <a href="#contact" class="navLink">contact</a>
             </div>
         </div>
     </div>
