@@ -6,7 +6,7 @@
     <div class="content">
       <div class="left">
 
-        <!-- Lorex Media -->
+        <!-- Aerium -->
         <div class="achivement">
           <div class="topPart">
             <span style="color: #444444; text-decoration: underline;">work</span>
@@ -18,16 +18,15 @@
             <span style="margin-top: -10px;">Back-End Developer</span>
           </div>
           <div class="thumbDiv">
-            <img src="/src/assets/images/Achivements/aerium.png" alt="" class="thumbblue">
+            <img src="/src/assets/images/Achivements/aerium.png" alt="" class="thumbwhite">
             <div class="desc">
-              <p>Created the whole Back-End from ground up, using Python, FastAPI, PostgreSQL, SQLAlchemy.
+              <p>Created the whole Back-End from ground up, using Python, FastAPI, PostgreSQL, SQLAlchemy.</p> 
               <ul>
                 <li>Structured a ‘Tenant Based’ Database</li>
                 <li>Integrated authentication API’s like JWT</li>
                 <li>Made it scalable using Alembic</li>
               </ul>
-              They unfortunately shut down recently
-</p>
+              <p>They unfortunately shut down recently</p>
              <br> 
               <div class="direct">
                 <button onclick="window.open('https://web.archive.org/web/20240420083345/https://www.aerium.estate/#expand', '_blank')">
@@ -38,7 +37,42 @@
             </div>
           </div>
         </div>
+        <!-- Portfolio -->
+        <div class="achivement">
+          <div class="topPart">
+            <span style="color: #444444; text-decoration: underline;">project</span>
+            <span style="color: #444444;">2022</span>
+          </div>
+          <div class="titleDiv">
+            <div class="dot dotPosRight"></div>
+            <h3>Portfolio Page</h3>
+            <span style="margin-top: -10px;">Full-Stack Developer</span>
+          </div>
+          <div class="thumbDiv">
+            <img src="/src/assets/images/Achivements/terminal.png" alt="" class="thumbterminal">
+            <div class="desc">
+              <p>Terminal based portfolio website.</p>
+              <ul>
+                <li>Made with pure JavaScript</li>
+                <li>Allowed me to have a solid foundation in HTML and JavaScript.</li>
+              </ul>
+             <br> 
+              <div class="direct">
+                <button class="githubButton" onclick="window.open('https://github.com/Zketra/ResumePage')">
+                  <img src="/src/assets/icons/github.svg" alt="github icon" class="github">
+                </button>
+                <button onclick="window.open('https://terminal.demirbags.com', '_blank')">
+                  check it out&nbsp;
+                  <img src="/src/assets/icons/arrow.png" alt="arrow">
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
       </div>
+
       <div class="right">
 
         <!-- Lorex Media -->
@@ -174,8 +208,8 @@ export default defineComponent({
 
   .right {
     margin-left: 20px;
-    margin-top: 400px;
   }
+
   .left{
     margin-right: 20px ;
   }
@@ -191,7 +225,20 @@ export default defineComponent({
     border-radius: 20px;
     box-sizing: border-box;
     padding: 20px;
-    margin-bottom: 30px;
+    margin-bottom: 10px; /* reduced margin-bottom */
+  }
+
+  .github {
+    fill: #ffffff;
+    width: 20px;
+    height: 20px;
+  }
+
+  .githubButton {
+    width: 30px;
+    margin-right: 10px; 
+    border-radius: 50%;
+    padding: 0;
   }
 
   .thumbblue{
@@ -205,6 +252,14 @@ export default defineComponent({
   .thumbgreen{
     width: 100%;
     box-shadow: 0 -20px 50px -25px rgba(23, 110, 43, 0.5);
+  } 
+  .thumbterminal{
+    width: 100%;
+    box-shadow: 0 -20px 50px -25px rgba(49, 49, 77, 0.5);
+  }
+  .thumbwhite{
+    width: 100%;
+    box-shadow: 0 -20px 50px -25px rgba(255, 255, 255, 0.3);
   }
 
 
