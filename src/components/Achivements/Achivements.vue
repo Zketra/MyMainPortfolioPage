@@ -1,3 +1,5 @@
+// yes i know i wrote Achivements instead of Achievements but i am too lazy to change it now
+
 <template>
   <div class="lineDiv">
     <img class="line" src="../../assets/images/Line2.png" alt="line">
@@ -5,6 +7,36 @@
   <div class="father" id="achivements">
     <div class="content">
       <div class="left">
+
+        <!-- this.resumePage -->
+        <div class="achivement">
+          <div class="topPart">
+            <span style="color: #444444; text-decoration: underline;">project</span>
+            <span style="color: #444444;">2025</span>
+          </div>
+          <div class="titleDiv">
+            <h3>My Main Portfolio Page</h3>
+            <span style="margin-top: -10px;">Full-Stack Developer</span>
+          </div>
+          <div class="descNonAbsouloute">
+            <p>The portfolio page that you are currently on.</p>
+            <ul>
+              <li>Created with Vue.js, TypeScript</li>
+              <li>Used Vite as a build tool</li>
+              <li>Hosted on Hostinger</li>
+            </ul>
+            <br>
+            <div class="direct">
+              <button class="githubButton" onclick="window.open('https://github.com/Zketra/portfolioTake2')">
+                <img src="/src/assets/icons/github.svg" alt="github icon" class="github">
+              </button>
+              <button onclick="window.open('https://demirbags.com', '_blank')">
+                check it out&nbsp;
+                <img src="/src/assets/icons/arrow.png" alt="arrow">
+              </button>
+            </div> 
+          </div>
+        </div>
 
         <!-- Aerium -->
         <div class="achivement">
@@ -304,6 +336,10 @@ export default defineComponent({
     position: absolute;
     bottom: 20px;
     padding: 0 30px 0 10px;
+  }
+
+  .descNonAbsouloute {
+  width: 100%;
   }
 
   p{

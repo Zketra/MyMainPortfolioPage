@@ -30,7 +30,7 @@
 <script lang="ts">
 import { defineComponent} from 'vue'
 import Skillbox from './skillComponent.vue'
-import { arch } from 'os';
+
 
 export default defineComponent({
   name: "Skills",
@@ -49,6 +49,7 @@ export default defineComponent({
           ],
           done: [
           {name: "python", logoPath: "/src/assets/icons/Skills/py.png", textColor: "#FFD040", borderColor: "#366C9A"},
+          {name: "vim", logoPath: "/src/assets/icons/Skills/vim.svg", textColor: "#019733", borderColor: "#019733"},
           {name: "html", logoPath: "/src/assets/icons/Skills/html.webp", textColor: "#E44D26", borderColor: "#E44D26"},
           {name: "css", logoPath: "/src/assets/icons/Skills/css.svg", textColor: "#264DE4", borderColor: "#264DE4"},
           {name: "linux", logoPath: "/src/assets/icons/Skills/linux.png", textColor: "#FCC624", borderColor: "#ffffff"},
