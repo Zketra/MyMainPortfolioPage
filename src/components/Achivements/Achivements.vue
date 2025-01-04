@@ -3,7 +3,7 @@
 <template>
   <div class="achivementsDiv">
     <div class="lineDiv">
-      <img class="line" src="../../assets/images/Line2.png" alt="line">
+      <img class="line" src="../../assets/images/Line2long.png" alt="line">
     </div>
     <div class="father" id="achivements">
       <div class="content">
@@ -220,7 +220,7 @@ export default defineComponent({
 
   .line {
       position: absolute;
-      transform: translate(-50%, -50%);
+      transform: translate(-50%, 0%);
   }
 
   .father {
@@ -237,7 +237,7 @@ export default defineComponent({
   }
 
   .right, .left {
-    margin-top: 230px ;
+    margin-top: 200px ;
     width: 50%;
   }
 
