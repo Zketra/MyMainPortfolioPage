@@ -233,7 +233,7 @@ export default defineComponent({
 
   .content {
     display: flex;
-    width: 70vw;
+    width: 1344px;
   }
 
   .right, .left {
@@ -270,7 +270,7 @@ export default defineComponent({
   }
 
   .githubButton {
-    width: 30px;
+    width: 34px;
     margin-right: 10px; 
     border-radius: 50%;
     padding: 0;
@@ -354,6 +354,5 @@ export default defineComponent({
     justify-content: flex-end;
     width: 100%;
   }
-
 
 </style>

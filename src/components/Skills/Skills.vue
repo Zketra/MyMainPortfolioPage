@@ -78,7 +78,7 @@ export default defineComponent({
 
   .content {
     display: flex;
-    width: 1300px; /* updated width */
+    width: 1344px; /* updated width */
     align-items: center;
     justify-content: space-between;
   } 

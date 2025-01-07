@@ -54,6 +54,12 @@ export default defineComponent({
 }
 
 .navLink {
-    margin-right: 32px;
+    margin-left: 32px;
+}
+
+@media (max-width: 1200px) {
+  .inside {
+    width: 90vw; /* Adjust width for smaller screens */
+  }
 }
 </style>

@@ -6,6 +6,7 @@
     <About />
     <Skills />
     <Achivements /> 
+    <Contact />
     <!--
     -->
   </div>
@@ -19,18 +20,13 @@ import HeroBackground from "./components/HeroSection/HeroBackground.vue";
 import About from "./components/About/About.vue";
 import Skills from "./components/Skills/Skills.vue";
 import Achivements from "./components/Achivements/Achivements.vue";
-/*
-import About from "./components/About.vue";
-import Skills from "./components/Skills.vue";
-import Experience from "./components/Experience.vue";
-import Projects from "./components/Projects.vue";
-import Footer from "./components/Footer.vue";
-*/
+import Contact from "./components/Contact/Contact.vue";
+
 
 export default defineComponent({
   name: 'App',
   components: {
-    NavHeader, YBDHero, HeroBackground, About, Skills, Achivements,
+    NavHeader, YBDHero, HeroBackground, About, Skills, Achivements, Contact
   }
 });
 </script>
