@@ -1,5 +1,5 @@
 <template>
-  <div class="father">
+  <div id="contact" class="father">
     <div class="content">
       <h3>Contact Me</h3>
       <div class="wings">
@@ -19,10 +19,17 @@
           <br>
           <pre>
 {
-  links:{
+  links: {
     email: '<a href="mailto:ybdemirbag@gmail.com">ybdemirbag@gmail.com</a>',
     github: '<a href="https://github.com/Zketra">Zketra</a>',
     instagram: '<a href="https://www.instagram.com/ybdemirbag/">zketra</a>',
+  }
+
+  buissness: {
+    LorexMedia: {
+      website: <a href="https://www.lorexmedia.com">'lorexmedia.com',</a>
+      instagram: 'Coming soon...'
+    }
   }
 }
           </pre>

@@ -67,4 +67,14 @@ export default defineComponent({
     height: 24px;
     margin-right: 8px;
 }
+
+@media (max-width: 1200px){
+    #titleDiv {
+        width: 80vw;
+    }
+
+    #name {
+        text-align: center;
+    }
+}
 </style>

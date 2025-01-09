@@ -356,4 +356,26 @@ export default defineComponent({
     width: 100%;
   }
 
+  @media (max-width:1200px) {
+    .dot, .lineDiv {
+      display: none;
+    }
+
+    .left, .right {
+      width: 100vw;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .content {
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .achivement {
+      width: 60vw;
+    }
+
+  }
 </style>

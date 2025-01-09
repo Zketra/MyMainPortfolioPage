@@ -1,5 +1,5 @@
 <template>
-  <div class="father">
+  <div id="skills" class="father">
     <div class="content">
 
       <div class="box">
