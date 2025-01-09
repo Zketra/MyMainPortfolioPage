@@ -1,5 +1,12 @@
 <template>
-  <div class="father"></div>    
+  <div class="father">
+    <div class="content">
+      <div class="left">
+        <a href="https://www.demirbags.com"><img src="../../assets/icons/Logo.png" alt="Logo" class="logo"></a>
+        <span>© 2025 Lorex Media</span>
+      </div>
+    </div>
+  </div>    
 </template>
 
 <script lang="ts">
@@ -16,6 +23,6 @@ export default defineComponent({
 <style scoped>
   .father {
     width: 100vw;
-    background: ;
+    background-color: #0a0a0a  ;
   }
 </style>
