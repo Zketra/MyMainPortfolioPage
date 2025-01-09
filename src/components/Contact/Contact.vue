@@ -7,10 +7,10 @@
           <form ref="form" @submit.prevent="sendEmail">
             <div class="topPart">
               <input class="topIn" type="text" name="from_name" placeholder="name">
-              <input class="topIn" type="email" name="from_email">
+              <input class="topIn" type="email" name="from_email" placeholder="email">
             </div>
-            <textarea name="message"></textarea>
-            <input class="btn" type="submit" value="send">
+            <textarea class="txtarea" name="message"></textarea>
+            <input class="btn" type="submit" value="send" placeholder="message">
           </form>
         </div>
         <div class="side">
@@ -109,13 +109,12 @@ export default defineComponent({
     flex-direction: column;
   }
 
-  .topIn, textarea {
+  .topIn, .txtarea {
     background: #0A0A0A ;
     color: #444444;
     font-size: inherit;
     font: inherit;
   }
-
   .topIn {
     width: 100%;
     padding: 10px;

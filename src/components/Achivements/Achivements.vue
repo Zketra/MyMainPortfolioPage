@@ -221,6 +221,7 @@ export default defineComponent({
   .line {
       position: absolute;
       transform: translate(-50%, 0%);
+      z-index: -1;
   }
 
   .father {
