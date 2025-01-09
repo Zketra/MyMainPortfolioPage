@@ -9,8 +9,8 @@
               <input class="topIn" type="text" name="from_name" placeholder="name">
               <input class="topIn" type="email" name="from_email" placeholder="email">
             </div>
-            <textarea class="txtarea" name="message"></textarea>
-            <input class="btn" type="submit" value="send" placeholder="message">
+            <textarea class="txtarea" name="message" placeholder="message" ></textarea>
+            <input class="btn" type="submit" value="send" >
           </form>
         </div>
         <div class="side">
@@ -111,10 +111,20 @@ export default defineComponent({
 
   .topIn, .txtarea {
     background: #0A0A0A ;
-    color: #444444;
+    color: #dddddd;
     font-size: inherit;
     font: inherit;
   }
+
+  :-ms-input-placeholder { /* Internet Explorer 10+ */
+    font-style: italic;
+    color: #444444;
+}
+  ::-webkit-input-placeholder { /* WebKit browsers */
+     font-style: italic;
+     color: #444444;
+}
+
   .topIn {
     width: 100%;
     padding: 10px;
