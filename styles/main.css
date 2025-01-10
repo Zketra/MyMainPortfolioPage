@@ -72,3 +72,20 @@ button, .btn {
 .secondaryText {
     font-family: var(--secFont), monospace;   
 }
+
+
+
+.showOnPhone {
+    display: none;
+}
+
+
+
+@media (max-width: 768px) {
+    .showOnPhone {
+        display: block;
+    }
+    .hideOnPhone {
+        display: none;
+    }
+}

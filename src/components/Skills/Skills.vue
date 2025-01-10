@@ -113,4 +113,21 @@ export default defineComponent({
     box-sizing: border-box;
     padding: 10px;
   }
+
+  @media (max-width: 768px) {
+    .content {
+      width: 100vw;
+      flex-flow: column;
+    }
+
+    .box {
+      width: 90%;
+      margin: 0 0 20px 0;
+      height: 350px;
+    }
+
+    .innerbox {
+      height: 250px;
+    }
+  }
 </style>

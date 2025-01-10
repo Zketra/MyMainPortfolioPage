@@ -7,7 +7,193 @@
     </div>
     <div class="father" id="achivements">
       <div class="content">
-        <div class="left">
+
+        <div class="showOnPhone">
+          <!-- this.resumePage -->
+          <div class="achivement">
+            <div class="topPart">
+              <span style="color: #444444; text-decoration: underline;">project</span>
+              <span style="color: #444444;">2025</span>
+            </div>
+            <div class="titleDiv">
+              <h3>My Main Portfolio Page</h3>
+              <span style="margin-top: -10px;">Full-Stack Developer</span>
+            </div>
+            <div class="descNonAbsouloute">
+              <p>The portfolio page that you are currently on.</p>
+              <ul>
+                <li>Created with Vue.js, TypeScript</li>
+                <li>Used Vite as a build tool</li>
+                <li>Hosted on Hostinger</li>
+              </ul>
+              <br>
+              <div class="direct">
+                <button class="githubButton" onclick="window.open('https://github.com/Zketra/portfolioTake2')">
+                  <img src="/src/assets/icons/github.svg" alt="github icon" class="github">
+                </button>
+                <button onclick="window.open('https://demirbags.com', '_blank')">
+                  check it out&nbsp;
+                  <img src="/src/assets/icons/arrow.png" alt="arrow">
+                </button>
+              </div> 
+            </div>
+          </div>
+          
+          <!-- Lorex -->
+          <div class="achivement">
+            <div class="topPart">
+              <span style="color: #444444; text-decoration: underline;">work</span>
+              <span style="color: #444444;">2024</span>
+            </div>
+            <div class="titleDiv">
+              <div class="dot dotPosLeft"></div>
+              <h3>Lorex Media</h3>
+              <span style="margin-top: -10px;">Managing Director</span>
+            </div>
+            <div class="thumbDiv">
+              <img src="/src/assets/images/Achivements/lorex.png" alt="" class="thumbblue">
+              <div class="desc">
+                <p>A future company to do all online management from ads to website, from follow up auto-messaging to scraped-customer-search. Anything that is online, we manage it for our customers.</p>
+               <br> 
+                <div class="direct">
+                  <button onclick="window.open('https://www.lorexmedia.com', '_blank')">
+                    check it out&nbsp;
+                    <img src="/src/assets/icons/arrow.png" alt="arrow">
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Aerium -->
+          <div class="achivement">
+            <div class="topPart">
+              <span style="color: #444444; text-decoration: underline;">work</span>
+              <span style="color: #444444;">2023 - 2024</span>
+            </div>
+            <div class="titleDiv">
+              <div class="dot dotPosRight"></div>
+              <h3>Aerium Estate</h3>
+              <span style="margin-top: -10px;">Back-End Developer</span>
+            </div>
+            <div class="thumbDiv">
+              <img src="/src/assets/images/Achivements/aerium.png" alt="" class="thumbwhite">
+              <div class="desc">
+                <p>Created the whole Back-End from ground up, using Python, FastAPI, PostgreSQL, SQLAlchemy.</p> 
+                <ul>
+                  <li>Structured a ‘Tenant Based’ Database</li>
+                  <li>Integrated authentication API’s like JWT</li>
+                  <li>Made it scalable using Alembic</li>
+                </ul>
+                <p>They unfortunately shut down recently</p>
+               <br> 
+                <div class="direct">
+                  <button onclick="window.open('https://web.archive.org/web/20240420083345/https://www.aerium.estate/#expand', '_blank')">
+                    check it out&nbsp;
+                    <img src="/src/assets/icons/arrow.png" alt="arrow">
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        
+          <!-- Sawix -->
+          <div class="achivement">
+            <div class="topPart">
+              <span style="color: #444444; text-decoration: underline;">work</span>
+              <span style="color: #444444;">2023</span>
+            </div>
+            <div class="titleDiv">
+              <div class="dot dotPosLeft"></div>
+              <h3>Sawix Studio</h3>
+              <span style="margin-top: -10px;">Website Designer</span>
+            </div>
+            <div class="thumbDiv">
+              <img src="/src/assets/images/Achivements/sawix.png" alt="" class="thumbpurple">
+              <div class="desc">
+                <p>Learnt the basics of website designing using Figma, Wordpress and Webflow that became the groundwork of my designing skills that i still use today.</p>
+               <br> 
+                <div class="direct">
+                  <button onclick="window.open('https://www.sawix.de', '_blank')">
+                    check it out&nbsp;
+                    <img src="/src/assets/icons/arrow.png" alt="arrow">
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Portfolio -->
+          <div class="achivement">
+            <div class="topPart">
+              <span style="color: #444444; text-decoration: underline;">project</span>
+              <span style="color: #444444;">2022</span>
+            </div>
+            <div class="titleDiv">
+              <div class="dot dotPosRight"></div>
+              <h3>Portfolio Page</h3>
+              <span style="margin-top: -10px;">Full-Stack Developer</span>
+            </div>
+            <div class="thumbDiv">
+              <img src="/src/assets/images/Achivements/terminal.png" alt="" class="thumbterminal">
+              <div class="desc">
+                <p>Terminal based portfolio website.</p>
+                <ul>
+                  <li>Made with pure JavaScript</li>
+                  <li>Allowed me to have a solid foundation in HTML and JavaScript.</li>
+                </ul>
+               <br> 
+                <div class="direct">
+                  <button class="githubButton" onclick="window.open('https://github.com/Zketra/ResumePage')">
+                    <img src="/src/assets/icons/github.svg" alt="github icon" class="github">
+                  </button>
+                  <button onclick="window.open('https://terminal.demirbags.com', '_blank')">
+                    check it out&nbsp;
+                    <img src="/src/assets/icons/arrow.png" alt="arrow">
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 2D Game -->
+          <div class="achivement">
+            <div class="topPart">
+              <span style="color: #444444; text-decoration: underline;">project</span>
+              <span style="color: #444444;">2018</span>
+            </div>
+            <div class="titleDiv">
+              <div class="dot dotPosLeft"></div>
+              <h3>2D Adventure Game</h3>
+              <span style="margin-top: -10px;">Developer</span>
+            </div>
+            <div class="thumbDiv">
+              <img src="/src/assets/images/Achivements/game.png" alt="" class="thumbgreen">
+              <div class="desc">
+                <p>Developed a Zelda-like game with a team of 3. </p>
+                <ul>
+                  <li>Learned Unity and C# </li>
+                  <li>Built a base to how to work with a team and use Git</li>
+                  <li>Upgraded my designing skills </li>
+                </ul>
+                <p>Since it has been a long time i unfortunately do not have the files</p>
+               <br> 
+                <div class="direct">
+                  <button class="unbtn" >
+                    check it out&nbsp;
+                    <img src="/src/assets/icons/arrowdark.png" alt="arrow">
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+
+
+
+        <div class="left hideOnPhone">
   
           <!-- this.resumePage -->
           <div class="achivement">
@@ -106,7 +292,7 @@
   
         </div>
   
-        <div class="right">
+        <div class="right hideOnPhone">
   
           <!-- Lorex Media -->
           <div class="achivement">
@@ -361,13 +547,6 @@ export default defineComponent({
       display: none;
     }
 
-    .left, .right {
-      width: 100vw;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    }
-
     .content {
       flex-direction: column;
       justify-content: center;
@@ -377,5 +556,18 @@ export default defineComponent({
       width: 60vw;
     }
 
+    .showOnPhone {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      width: 100%;
+    }
+
+  }
+
+  @media (max-width: 768px) {
+    .achivement {
+      width: 90vw;
+    }
   }
 </style>

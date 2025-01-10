@@ -48,4 +48,10 @@ export default defineComponent({
     align-items: center;
   }
 
+  @media (max-width: 768px) {
+    .content {
+      width: 80vw;
+    }
+  }
+
 </style>

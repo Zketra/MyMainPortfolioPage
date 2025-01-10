@@ -89,6 +89,7 @@ export default defineComponent({
     display: flex;
     width: 1344px; /* updated width */
     flex-flow: column;
+    box-shadow: 0px 0px 30px 0px #444444;
   }
 
   .wings {
@@ -173,4 +174,13 @@ export default defineComponent({
   pre a {
   font-style: italic;
   }
+
+  @media (max-width: 768px) {
+    .wings{
+      flex-direction: column;
+    }
+    .contact, .side {
+      width: 100%;
+    }
+  } 
 </style>
